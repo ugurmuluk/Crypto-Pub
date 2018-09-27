@@ -1,8 +1,6 @@
 
 import numpy as np
 
-
-
 def dateExtractor(x):
     years = x.astype('datetime64[Y]').astype(int) + 1970
     months = x.astype('datetime64[M]').astype(int) % 12 + 1
