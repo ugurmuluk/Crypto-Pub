@@ -1,6 +1,6 @@
 import numpy as np
 def rsiDBcross(rsi1, rsi2):
-    states = np.zeros(len(rsi1))
+    states = np.zeros(len(rsi2))
     bought = 1
     sold = 1
     states[0] = 0
